@@ -12,3 +12,14 @@ spring:
         rewriteBatchedStatements: true
         useLocalSessionState: true
         useServerPrepStmts: true
+      maximum-pool-size: 5
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  zipkin:
+    baseUrl: http://localhost:9411/
+    enabled: true
