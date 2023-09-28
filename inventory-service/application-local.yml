@@ -1,5 +1,5 @@
 spring:
   datasource:
     password: password
-    url: jdbc:mysql://localhost:3306/beerinventoryservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://mysql:3306/beerinventoryservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: beer_inventory_service
